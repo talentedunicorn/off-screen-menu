@@ -1,0 +1,95 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M149.932 874.026c-199.94-199.94-199.94-524.132 0-724.074 200.004-199.94 524.134-199.94 724.136 0 199.94 199.942 199.94 524.134 0 724.074-200.002 199.97-524.132 199.97-724.136 0zM783.566 240.454c-150.002-149.97-393.13-149.97-543.070 0-150.002 149.97-150.002 393.1 0 543.070 149.94 149.972 393.068 149.972 543.070 0 149.942-149.972 149.942-393.1 0-543.070zM376.248 738.274l-90.502-90.532 135.752-135.754-135.752-135.752 90.502-90.534 135.752 135.784 135.754-135.784 90.5 90.534-135.752 135.752 135.752 135.754-90.5 90.532-135.754-135.784-135.752 135.784z"
+				],
+				"tags": [
+					"close",
+					"remove",
+					"cancel"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 17,
+				"order": 2,
+				"prevSize": 16,
+				"code": 58880,
+				"name": "close",
+				"ligatures": ""
+			},
+			"setIdx": 2,
+			"iconIdx": 17
+		},
+		{
+			"icon": {
+				"paths": [
+					"M256 640h512v128h-512zM256 448h512v128h-512zM960 0h-896c-35.376 0-64 28.624-64 64v896c0 35.376 28.624 64 64 64h896c35.376 0 64-28.624 64-64v-896c0-35.376-28.624-64-64-64zM896 896h-768v-768h768v768zM256 256h512v128h-512z"
+				],
+				"tags": [
+					"menu",
+					"list",
+					"options",
+					"nav"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 44,
+				"order": 1,
+				"prevSize": 16,
+				"code": 58881,
+				"name": "menu",
+				"ligatures": ""
+			},
+			"setIdx": 2,
+			"iconIdx": 44
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": "",
+		"quickUsageToken": {
+			"offscreen": "ZDJkNDg0ZmIyMzczY2EzZWJiMWI4MWU4N2VmYzlkNjEjMSMxNDEzMjE1Mjc4IyMj"
+		}
+	}
+}
