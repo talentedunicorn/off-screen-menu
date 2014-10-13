@@ -2,6 +2,8 @@
 $medium-screen: 640px
 $large-screen: 960px
 
+$nav-width: 200px
+
 body
     background-color: $color-base
     font-size: $base-font-size
@@ -9,7 +11,10 @@ body
 
 header
     nav 
+        position: absolute
         background-color: $color-base
+        width: $nav-width
+
         a
             display: block
             padding: 20px
@@ -31,10 +36,13 @@ header
         padding: 5px
         margin: 20px
             
+.site-wrap
+    position: absolute
+    left: $nav-width
 
-.b_masthead
-    background-color: $color-brand 
-    color: $color-base
-    text-align: center
-    font-size: $font-large
-    padding: 150px 20px
+    .b_masthead
+        background-color: $color-brand 
+        color: $color-base
+        text-align: center
+        font-size: $font-large
+        padding: 150px 20px
