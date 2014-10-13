@@ -25,10 +25,20 @@ header
             &:hover
                 background: $accent-color
                 color: $color-base
-        
-    .logo
+	
+    #menu,
+    #logo
         display: inline-block
         color: $color-brand
+
+    #menu
+        width: $nav-width
+        text-align: center
+
+        i
+            cursor: pointer
+		
+    #logo
         font-weight: $font-bold
         text-decoration: none
         text-transform: uppercase
@@ -37,8 +47,7 @@ header
         margin: 20px
             
 .site-wrap
-    position: absolute
-    left: $nav-width
+    margin-left: $nav-width
 
     .b_masthead
         background-color: $color-brand 
