@@ -1,3 +1,7 @@
+// Media query settings
+$medium-screen: 640px
+$large-screen: 960px
+
 body
     background-color: $color-base
     font-size: $base-font-size
@@ -5,9 +9,17 @@ body
 
 header
     nav 
+        background-color: $color-base
         a
-            display: block        
+            display: block
+            padding: 20px
+            color: $accent-color
+            text-decoration: none
             text-align: center
+            
+            &:hover
+                background: $accent-color
+                color: $color-base
         
     .logo
         display: inline-block
@@ -17,7 +29,7 @@ header
         text-transform: uppercase
         border: 2px solid $color-brand
         padding: 5px
-        margin: 5px
+        margin: 20px
             
 
 .b_masthead
@@ -26,6 +38,3 @@ header
     text-align: center
     font-size: $font-large
     padding: 150px 20px
-
-.logo
-
