@@ -11,9 +11,6 @@ $(function() {
 			nav = $('#' + navId),
 			bodyWrap = $('.' + siteWrapClass);
 
-		// Hide nav
-		nav.hide();
-
 		// On click of menu
 		menu.click(function() {
 			if(nav.css('display') === 'none')
