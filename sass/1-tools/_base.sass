@@ -60,10 +60,12 @@ header
             text-align: center
             word-break: nowrap
             
-            &:hover,
-            &:active
-                background-color: $accent-color
-                color: $color-base
+            &:hover
+                @extend .active
+
+        .active
+            background-color: $accent-color
+            color: $color-base
 
     .b_masthead
         background-color: $color-brand 
