@@ -14,7 +14,7 @@ $(function() {
 		// On click of menu
 		menu.click(function() {
 			nav.toggle(300);
-			menuIcon.toggleClass('icon-close', 'icon-menu'); // Change menu icon
+			menuIcon.toggleClass('icon-close icon-menu'); // Change menu icon
 		});
 	}
 
