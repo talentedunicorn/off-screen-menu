@@ -2,11 +2,11 @@ init();
 
 function init()
 {
-	toggleMenu('menu', 'site-wrap', 'nav', '200px');
+	toggleMenu('menu', 'site-wrap', 'nav');
 }
 
 // Toggle menu
-function toggleMenu(menuId, siteWrapClass, navId, navWidth) {
+function toggleMenu(menuId, siteWrapClass, navId) {
 	var menu = document.getElementById(menuId),
 		menuIcon = menu.childNodes[0],
 		nav = document.getElementById(navId),
@@ -14,7 +14,6 @@ function toggleMenu(menuId, siteWrapClass, navId, navWidth) {
 
 	// Hide nav
 	nav.style.display = 'none';
-	bodyWrap.style.marginLeft = '0px';
 
 	// On click of menu
 	menu.onclick = function() {
@@ -22,16 +21,12 @@ function toggleMenu(menuId, siteWrapClass, navId, navWidth) {
 		{
 			// Show nav
 			nav.style.display = '';
-			bodyWrap.style.marginLeft = navWidth;
-
-			// Change menu icon
-			menuIcon.className = 'icon-close';
+			menuIcon.className = 'icon-close'; // Change menu icon
 		}
 		else
 		{
 			// Close nav
 			nav.style.display = 'none';
-			bodyWrap.style.marginLeft = '0px';
 			menuIcon.className = 'icon-menu';
 		}
 	};
