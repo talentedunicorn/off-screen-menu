@@ -10,26 +10,7 @@ body
     font-family: $lato
 
 header
-
-    nav 
-        display: none
-        position: absolute
-        background-color: $color-base
-        width: $nav-width
-        min-height: 100%
-
-        a
-            display: block
-            padding: 20px
-            background: $accent-color
-            color: $color-base
-            text-decoration: none
-            text-align: center
-            
-            &:hover
-                background-color: $color-base
-                color: $accent-color
-	
+    
     #menu,
     #logo
         display: block
@@ -48,7 +29,7 @@ header
 
         i
             cursor: pointer
-		
+        
     #logo
         font-weight: $font-bold
         text-decoration: none
@@ -59,9 +40,30 @@ header
         
         @media screen and (min-width: $medium-screen)
             margin-left: $nav-width
-            
+
 .site-wrap
-    width: 100%
+    position: relative
+
+    nav 
+        display: none
+        position: absolute
+        background-color: $color-base
+        width: $nav-width
+        min-height: 100%
+
+        a
+            display: block
+            padding: 20px
+            background-color: $color-base
+            color: $accent-color
+            text-decoration: none
+            text-align: center
+            word-break: nowrap
+            
+            &:hover,
+            &:active
+                background-color: $accent-color
+                color: $color-base
 
     .b_masthead
         background-color: $color-brand 

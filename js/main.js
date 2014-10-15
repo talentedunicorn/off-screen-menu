@@ -13,13 +13,7 @@ $(function() {
 
 		// On click of menu
 		menu.click(function() {
-			if(nav.css('display') === 'none')
-			{
-				nav.show('slow');
-			} else {
-				nav.hide('slow');
-			}
-
+			nav.toggle('slow');
 			menuIcon.toggleClass('icon-close', 'icon-menu'); // Change menu icon
 		});
 	}
