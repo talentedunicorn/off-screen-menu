@@ -36,15 +36,14 @@ header
         margin: 20px auto
         text-align: center
 
-        @media screen and (min-width: $medium-screen)
-            display: inline-block
-
     #menu
         width: $nav-width
         text-align: center
 
         @media screen and (min-width: $medium-screen)
-            float: right
+            position: absolute
+            top: 0px
+            padding-top: 5px // like the menu
 
         i
             cursor: pointer
@@ -56,7 +55,9 @@ header
         border: 2px solid $color-brand
         padding: 5px
         width: $nav-width / 2
-        margin: 20px
+        
+        @media screen and (min-width: $medium-screen)
+            margin-left: $nav-width
             
 .site-wrap
     width: 100%
