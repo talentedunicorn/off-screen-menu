@@ -7,7 +7,7 @@ $(function() {
 	// Toggle menu
 	function toggleMenu(menuId, siteWrapClass, navId) {
 		var menu = $('#' + menuId),
-			menuIcon = menu.find('.icon*'),
+			menuIcon = menu.children('[class^=icon]'),
 			nav = $('#' + navId),
 			bodyWrap = $('.' + siteWrapClass);
 
