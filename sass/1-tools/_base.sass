@@ -48,8 +48,11 @@ header
         display: none
         position: absolute
         background-color: $color-base
-        width: $nav-width
+        width: 100%
         min-height: 100%
+        
+        @media screen and (min-width: $medium-screen)
+            width: $nav-width
 
         a
             display: block
