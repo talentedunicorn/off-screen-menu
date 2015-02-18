@@ -2,9 +2,9 @@
 
 An expriment with offscreen navigation
 
-## Build
-* Install compass (to compile the sass)
-`gem install compass`
+## Requirements
+* Install [sass](http://sass-lang.org)
+`gem install sass`
 * Compile the sass
-`compass compile`
+`sass sass:stylesheets`
 * __Enjoy__
