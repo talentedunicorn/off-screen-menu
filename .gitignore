@@ -1,6 +1,5 @@
 # Sass stuff
 .sass*
-stylesheets/*.css
 
 # tmp files
 *.swp
